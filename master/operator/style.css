@@ -1,0 +1,209 @@
+body{
+	background: white;
+}
+#outer-wrapper{
+	height:auto;
+	width:1350px;
+	border-radius:20px;
+	position: absolute;
+    margin:auto;
+}
+#header{
+	width:1350px;
+	height:100px;
+	background:#f7c50e;
+	position: fixed;
+	float:auto;
+	font-family:arial;
+	margin-top:-9px;
+}
+
+h1{
+	font-size:5em;
+	text-align:center;
+	margin:0px;
+	background: #f7c50e; 
+	text-shadow: 4px 0px 10px WHITE;
+	
+}
+
+#tbody{
+	margin-top:100px;
+	width:800px;
+	height:auto;
+	border:1px solid white;
+	background:grey;
+	float:auto;
+	margin:auto;
+}
+
+.menu{
+	width:800px;
+	height:30px;
+	margin-top:90px;
+	position: fixed;
+	background:#665c14;
+	float:auto;
+}
+.img{
+	-webkit-transform:scale(1);
+	-moz-transform:scale(1);
+	-o-transform:scale(1);
+	float:left;
+	margin:0px;
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+}
+.img .mask{
+	width: 100%;
+	background-color: rgb(0, 0, 0);
+	position: absolute;
+	height: 100%;
+	opacity:0.6;
+	cursor:pointer;
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration:0.5s;
+}
+#img-1:hover .mask{
+	height:0%;
+}
+#img-1:active .mask{
+	height:0%;
+}
+
+.content{
+	width:800px;
+	height:600px;
+	float:auto;
+	margin-top:120px;
+	background:#00BCFF;
+}
+
+a{
+	text-decoration:none;
+}
+
+h2{
+	font-size:2em;
+	color : white;
+	text-align:center; 
+	vertical-align:center;
+	margin:0px;
+	font-family:verdana:
+}
+h3{
+	font-size:20px;
+	color : white;
+	text-align:center; 
+	vertical-align:center;
+	margin:-5px;
+	font-family:verdana:
+}
+b{
+	color : brown;	
+}
+.td_judul{
+	text-align:center;
+	vertical-align:center;
+	font-family:verdana;
+}
+td{
+	background:white;
+	font-family:verdana;
+	font-size:12px;
+	border:0.5px solid #00BCFF;
+}
+a:hover{
+	color:white;
+}
+.icon{
+	margin:5px 0px 0 5px;
+	height:16px;
+	width:16px;
+}
+.icon:hover{
+	-o-transform: scale(1.5);
+	-webkit-transform:  scale(1.5);
+	-moz-transform:  scale(1.5);
+	transform: scale(1.5);
+	-o-transition: all 500ms ease-in-out;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+.play{
+	margin-left:37%;
+	margin-top:10%;
+	margin-bottom:10%;
+	width:200px;
+	height:200px;
+}
+
+.txt{
+	width:500;
+	border:0px solid white;
+}
+.txtcup{
+	width:500;
+	font-family:Times New Roman;
+	font-size:14px;
+	border:0px solid white;
+}
+.tombolBatal{
+	background:red;
+	font-size:16px;
+	color:white;
+	border:1px solid red;
+	border-radius:50px;
+	float:right;
+}
+.tombolBatal:hover{
+	background:white;
+	color:red;
+	font-size:16px;
+	border:1px solid red;
+	border-radius:50px;
+	float:right;
+}
+.tombolReset{
+	background:teal;
+	font-size:16px;
+	color:white;
+	border-radius:50px;
+	border:1px solid teal;
+	float:right;
+}
+.tombolReset:hover{
+	background:white;
+	color:teal;
+	font-size:16px;
+	border-radius:50px;
+	border:1px solid teal;
+	float:right;
+}
+.tombolSimpan{
+	background:teal;
+	font-size:16px;
+	border-radius:50px;
+	color:white;
+	border:1px solid teal;
+	float:right;
+}
+.tombolSimpan:hover{
+	background:white;
+	color:teal;
+	border-radius:50px;
+	font-size:16px;
+	border:1px solid teal;
+	float:right;
+}
+#footer{
+	width:1350px;
+	height:30px;
+	background:#f7c50e;
+	position:fixed;
+	float:left;
+	margin:auto;
+}

@@ -1,0 +1,54 @@
+body{
+	background: white;
+}
+#outer-wrapper{
+	height:750px;
+	width:1350px;
+	background:white;
+	margin:auto;
+}
+#header{
+	width:1350px;
+	height:100px;
+	background:#8B4513;
+	float:auto;
+	margin:auto;
+}
+#tbody{
+	width:1350px;
+	height:auto;
+	float:auto;
+	margin:10px 0px 0px 0px;
+}
+
+#content{
+	background-image:url(image/kiri.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:900px;
+	height:600px;
+	float:left;
+	margin:auto;
+}
+#isi{
+	padding:40px;
+}
+#sidebar{
+	background:white;
+	width:450px;
+	height:600px;
+	float:right;
+	margin:auto;
+}
+
+#footer{
+	width:1350px;
+	height:40px;
+	background:#FFD700;
+	float:left;
+	margin:auto;
+}
+label{
+	font-family:verdana;
+	font-size:25px;
+}

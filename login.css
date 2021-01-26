@@ -1,0 +1,95 @@
+body{
+	background: #f1f1f1;
+}
+h1{
+	color:white;
+	font-size:5em;
+	text-align:center;
+	margin:0px;
+}
+
+table{
+	background-color:#FFCC00;
+	border-radius:5%;
+	padding:20px;	
+	margin:auto;
+	top: 40%;
+	font-family:Verdana;
+	left: 40%;
+	position: absolute;
+    vertical-align: middle;
+}
+tr{
+	border-radius: 5%;
+}
+td{
+	border-radius: 5%;
+	height:40px;
+}
+.input-text, .input-password {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+	font-family:Verdana;
+}
+#outer-wrapper{
+	height:750px;
+	width:1350px;
+	border-radius:20px;
+	background:white;
+	margin:auto;
+}
+#header{
+	width:1350px;
+	height:100px;
+	background:#8B4513;
+	float:auto;
+	margin:auto;
+}
+#tbody{
+	width:800px;
+	height:600px;
+	float:auto;
+	margin:auto;
+}
+
+.tombolBatal{
+	background:red;
+	font-size:16px;
+	color:white;
+	border:1px solid red;
+	border-radius:50px;
+	float:right;
+}
+.tombolBatal:hover{
+	background:#FFCC00;
+	color:red;
+	font-size:16px;
+	border:1px solid red;
+	border-radius:50px;
+	float:right;
+}
+.tombolReset{
+	background:teal;
+	font-size:16px;
+	color:white;
+	border-radius:50px;
+	border:1px solid teal;
+	float:right;
+}
+.tombolReset:hover{
+	background:#FFCC00;
+	color:teal;
+	font-size:16px;
+	border-radius:50px;
+	border:1px solid teal;
+	float:right;
+}
+
+#footer{
+	width:1350px;
+	height:40px;
+	background:#FFD700;
+	float:left;
+	margin:auto;
+}

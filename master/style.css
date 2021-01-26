@@ -1,0 +1,111 @@
+body{
+	background: #f1f1f1;
+}
+#outer-wrapper{
+	height:auto;
+	width:1350px;
+	border-radius:20px;
+	background:white;
+	position: absolute;
+    margin:auto;
+}
+#header{
+	width:1350px;
+	height:100px;
+	background:#f7c50e;
+	position: fixed;
+	float:auto;
+	font-family:arial;
+	margin-top:-9px;
+}
+
+h1{
+	font-size:5em;
+	text-align:center;
+	margin:0px;
+	background: #f7c50e; 
+	text-shadow: 0px 4px 1px WHITE;
+	
+}
+
+#tbody{
+	margin-top:100px;
+	width:800px;
+	height:auto;
+	border:1px solid white;
+	background:grey;
+	float:auto;
+	margin:auto;
+}
+
+
+.content{
+	width:800px;
+	height:600px;
+	float:auto;
+	margin-top:120px;
+
+	background:#00BCFF;
+}
+
+a{
+	text-decoration:none;
+}
+
+h2{
+	font-size:2em;
+	color : white;
+	text-align:center; 
+	vertical-align:center;
+	margin:0px;
+	font-family:verdana:
+}
+.menuUtama1{
+	margin:auto;
+	margin-top:150px;
+	float:left;
+	width:40%;
+}
+.menuUtama2{
+	margin-top:150px;
+	float:right;
+	width:40%;
+}
+.play{
+	float:right;
+	width:150px;
+	height:150px;
+}
+.play:hover{
+	-o-transform: scale(1.5);
+	-webkit-transform:  scale(1.5);
+	-moz-transform:  scale(1.5);
+	transform: scale(1.5);
+	-o-transition: all 500ms ease-in-out;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+.menu{
+	float:left;
+	width:150px;
+	height:150px;
+}
+.menu:hover{
+	-o-transform: scale(1.5);
+	-webkit-transform:  scale(1.5);
+	-moz-transform:  scale(1.5);
+	transform: scale(1.5);
+	-o-transition: all 500ms ease-in-out;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+
+#footer{
+	width:1350px;
+	height:30px;
+	background:#f7c50e;
+	float:left;
+	margin:auto;
+}
